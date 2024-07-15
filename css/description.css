@@ -1,0 +1,18 @@
+:root {
+  --main-color: #0d0d0d;
+  --main-color-rgb: 13, 13, 13;
+}
+
+body {
+  background-color: var(--main-color);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  object-fit: cover;
+}

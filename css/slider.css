@@ -1,0 +1,44 @@
+.side-slider {
+  width: 315px;
+  left: -250px;
+  z-index: 100;
+}
+
+.side-slider .left {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-color);
+  justify-content: space-between;
+}
+
+.side-slider .left header {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-slider .right {
+  text-align: center;
+  width: 65px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: space-between;
+  color: var(--main-color);
+  .icons {
+    flex-direction: column;
+  }
+}
+
+.close {
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
+#search ,#category ,#area ,#ingrediant ,#contact {
+  transform: translateY(30px);
+  animation-duration: 1s;
+}
