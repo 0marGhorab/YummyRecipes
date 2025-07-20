@@ -6,7 +6,7 @@ Yummy Search is a simple web application that allows users to explore meals usin
 
 ## 🚀 Live Demo
 
-> Coming soon – add your GitHub Pages or Netlify link here once deployed!
+[Demo](https://0marghorab.github.io/YummyRecipes/)
 
 ---
 
